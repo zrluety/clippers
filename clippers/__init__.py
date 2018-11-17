@@ -1,4 +1,5 @@
-from colorama import init, Fore
+import colorama
 
-init()
-print(Fore.RED  + "some red text")
+def greet():
+    colorama.init()
+    print(colorama.Fore.RED + "Hello, World!")
