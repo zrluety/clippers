@@ -1,7 +1,5 @@
 import sys
 
-from pynput import keyboard
-
 
 def choice_prompt(prompt, choices):
     # create a check box for each choice
