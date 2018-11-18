@@ -2,8 +2,6 @@ import textwrap
 
 import clippers
 
-from pynput.keyboard import Key, Controller
-
 
 def test_choice_prompt(capsys):
     # Given a prompt and list of choices the user should see the prompt
