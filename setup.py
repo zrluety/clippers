@@ -1,13 +1,8 @@
 from setuptools import setup, find_packages
 
-install_requires = [
-    "colorama",
-]
+install_requires = ["colorama"]
 
-tests_require = [
-    "pytest",
-    "pytest-cov",
-]
+tests_require = ["pytest", "pytest-cov"]
 
 setup(
     name="clippers",
@@ -17,5 +12,5 @@ setup(
     packages=find_packages(exclude=["tests"]),
     description="Build beautiful Command Line Applications in Python",
     install_requires=install_requires,
-    tests_require=tests_require
+    tests_require=tests_require,
 )
